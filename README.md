@@ -1,4 +1,4 @@
-Cel: Stworzenie serwera z usługą LAMP
+##Cel: Stworzenie serwera z usługą LAMP
 
 Potrzebne pliki:
 -ApacheDocker
