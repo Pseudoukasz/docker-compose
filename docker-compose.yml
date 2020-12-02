@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+  apache:
+    build: './ApacheDocker'
+    restart: always
+    ports:
+      - 6666:80
+    networks: 
+      - frontend
+      - backend
+    volumes:
+      - ./files:/usr/local/apache2/htdocs
+
+    depends_on:
+      - php
+      - mysql
+  php:
+    build: './PhpDocker'
+    restart: always
+    networks: 
+      - backend
+    volumes:
+      - ./files:/usr/local/apache2/htdocs      
+  mysql:
+    build: './MysqlDocker'
+    restart: always
+    networks:
+      - backend
+    volumes:
+      - ./mysqlDatabase:/var/lib/mysql
+networks: 
+  backend:
+  frontend:
