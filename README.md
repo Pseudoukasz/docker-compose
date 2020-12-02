@@ -7,13 +7,13 @@ Potrzebne pliki:
 * PHPDocker
     * php.ini
     * Dockerfile
--MySQL
-    -my.cnf
-    -Dockerfile
--files
-    -index.html
-    -index.php
--docker-compose.yml
+* MySQL
+    * my.cnf
+    * Dockerfile
+* files
+    * index.html
+    * index.php
+* docker-compose.yml
 
 ## Wykonianie:
 
