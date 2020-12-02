@@ -1,4 +1,4 @@
-##Cel: Stworzenie serwera z usługą LAMP
+**Cel: Stworzenie serwera z usługą LAMP
 
 Potrzebne pliki:
 -ApacheDocker
@@ -15,7 +15,7 @@ Potrzebne pliki:
     -index.php
 -docker-compose.yml
 
-Wykonianie:
+*Wykonianie:
 
 tworzenie projektu poleceniem:
 ```
