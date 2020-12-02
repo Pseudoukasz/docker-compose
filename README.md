@@ -1,12 +1,12 @@
 ## Cel: Stworzenie serwera z usługą LAMP
 
 Potrzebne pliki:
--ApacheDocker
-    -apache.conf
-    -Dockerfile
--PHPDocker
-    -php.ini
-    -Dockerfile
+* ApacheDocker
+    * apache.conf
+    * Dockerfile
+* PHPDocker
+    * php.ini
+    * Dockerfile
 -MySQL
     -my.cnf
     -Dockerfile
